@@ -1,6 +1,6 @@
-//Calcule e mostre as raízes reais de uma função polinomial de segundo grau.
-//Delta = b² -4.a.c
-//x = (-b+/-sqrtDelta)/2.a
+//Calcule e mostre as raÃ­zes reais de uma funÃ§Ã£o polinomial de segundo grau.
+//Delta = b^2 -4.a.c
+//x = (-b (+/-) sqrt(Delta))/2.a
 
 #include<stdio.h>
 #include<math.h>
@@ -9,7 +9,7 @@ main()
 	float Delta, X1, X2, A, B, C;
 	
 	printf("\nVamos calcular as raizes reais de uma equacao de 2o grau!");
-	printf("\nInforme os valores da equacao seguindo a formula: ax² + bx + c = 0");
+	printf("\nInforme os valores da equacao seguindo a formula: ax^2 + bx + c = 0");
 	printf("\nInforme o valor de 'A': ");scanf("%f",&A);
 
 	
